@@ -1,0 +1,29 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Định dạng khoảng thụt vào đàu lòng cho văn bản</title>
+    <style type="text/css">
+        p{
+            text-indent:2.5em; margin-top:0 
+        }
+        p.noindent {
+            text-indent: 0 ; margin-top: 0
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Đoạn văn bản này có dòng đầu thụt vào một khoảng 2.5 kích thước font chữ hiện tại
+    </p>
+    <p
+        class ="noindent"> Đoạn văn bản này không bị thụ vào ở dòng đầu tiên 
+    </p>
+</body>
+</html>

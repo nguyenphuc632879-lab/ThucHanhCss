@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TẠO THANH NAVIGATOR</title>
+    <style type="text/css">
+        #menu a , #menu a:visited{
+            position:relative;
+            text-decoration:none;
+            text-align:center;
+            background-color: #9ab;
+            color: #fff;
+            display:block;
+            width: 10em;
+            border: 2px solid #fff;
+            border-color: #def #678 #345 #cde;
+            padding: 0.25em;
+            margin: 0.5em auto;
+        }
+        #menu a::after hover{
+            top: 2px;
+            left: 2px;
+            color: #fff;
+            border-color: #345 #cde #def #678
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+    <a href="#"> Home</a>
+    <a href="#">About</a>
+    <a href="#">History</a>
+    <a href="#">Team</a>
+    <a href="#">Offices</a>
+    </div>
+</body>
+</html>

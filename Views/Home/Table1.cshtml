@@ -1,0 +1,82 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <title>Tạo các mẫu Table - Bài 1</title>
+    <style type="text/css">
+        table.mytable {
+            background-color: #008080;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+        }
+        th.mytable {
+            background-color: #000000;
+            font-style: italic;
+            font-size: 18px;
+            padding: 8px;
+        }
+
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        .mytable_column1 {
+            background-color: #000080;
+            font-weight: bold;
+            font-style: italic;
+        }
+        tr.mytable {
+            border-top: 2px solid #000;
+            border-bottom: 3px solid #000;
+        }
+    </style>
+</head>
+<body>
+
+    <table class="mytable">
+        
+        <tr>
+            <th class="mytable" width="150">header1</th>
+            <th class="mytable" width="150">header2</th>
+            <th class="mytable" width="150">header3</th>
+            <th class="mytable" width="150">header4</th>
+        </tr>
+     
+        <tr>
+            <td class="mytable_column1">colum1</td>
+            <td>colum2</td>
+            <td>colum3</td>
+            <td>colum4</td>
+        </tr>
+
+        <tr>
+            <td class="mytable_column1">colum1</td>
+            <td>colum2</td>
+            <td>colum3</td>
+            <td>colum4</td>
+        </tr>
+        <tr>
+            <td class="mytable_column1">colum1</td>
+            <td>colum2</td>
+            <td>colum3</td>
+            <td>colum4</td>
+        </tr>
+
+     
+        <tr class="mytable">
+            <td class="mytable_column1">colum1</td>
+            <td>colum2</td>
+            <td>colum3</td>
+            <td>colum4</td>
+        </tr>
+    </table>
+
+</body>
+</html>

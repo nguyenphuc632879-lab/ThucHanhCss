@@ -1,0 +1,30 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Định dạng cho link </title>
+    <style 
+        type="text/css" >
+        a.mystyle::after link {
+            color:#ff0000; text-decoration: none
+        }
+
+        a.mystyle:visited {
+            color: #0000ff; text-decoration:none 
+        }
+
+        a.mystyle::after hover {
+            color: #ffff00 ; background: #66ff66; text-decoration: underline
+        }
+    </style>
+</head>
+<body>
+    <a class="mystyle" href="#">test my link style </a>
+</body>
+</html>
